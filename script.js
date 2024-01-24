@@ -2,3 +2,4 @@
 function functionName() {
 	return (arguments.callee.name);
 }
+alert(functionName());
